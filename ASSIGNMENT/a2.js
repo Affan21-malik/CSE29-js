@@ -1,0 +1,45 @@
+vara=100; varb=13; varc=10; varlinebreak="<br>";
+document.write("a+b+c=");
+result=a+b+c;
+document.write(result);
+document.write(linebreak);
+document.write("a+b=");
+result=a+b;
+document.write(result);
+document.write(linebreak);
+document.write("a-b=");
+result=a-b;
+document.write(result);
+document.write(linebreak);
+document.write("a/b=");
+result=a/b;
+document.write(result);
+document.write(linebreak);
+document.write("a%b=");
+result=a%b;
+document.write(result);
+document.write(linebreak);
+/*ye body m likha jata h 
+<scripttype="text/javascript">
+vara=100; varb=13; varc=10; varlinebreak="<br>";
+document.write("a+b+c=");
+result=a+b+c;
+document.write(result);
+document.write(linebreak);
+document.write("a+b=");
+result=a+b;
+document.write(result);
+document.write(linebreak);
+document.write("a-b=");
+result=a-b;
+document.write(result);
+document.write(linebreak);
+document.write("a/b=");
+result=a/b;
+document.write(result);
+document.write(linebreak);
+document.write("a%b=");
+result=a%b;
+document.write(result);
+document.write(linebreak);
+</script>*/
