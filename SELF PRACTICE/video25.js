@@ -1,5 +1,6 @@
 alert("Hello World");
 
+
 console.log("Code is running...")
 console.log("Code is also running...")
 console.log("Code is looking like a wow...")
@@ -17,6 +18,6 @@ else{
 }
 console.log("Your number is " + a)
 
-document.title = "Hey I am good"
+document.title = "Hey I am boss"
 
 // document.body.style.backgroundColor = "red"
