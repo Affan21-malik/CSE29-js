@@ -25,3 +25,6 @@ const red = (a, b)=>{
 }
 
 console.log(arr2.reduce(red))
+
+const a = Array.from("affan");
+console.log(a);
