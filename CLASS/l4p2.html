@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON Example</title>
+</head>
+<body>
+
+<h2>Create Object from JSON String</h2>
+
+<p id="demo"></p>
+
+<script>
+    // JSON string
+    var text = '{ "employees" : [' +
+    '{ "firstName":"John" , "lastName":"Doe" },' +
+    '{ "firstName":"Anna" , "lastName":"Smith" },' +
+    '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+    // Convert JSON string to object
+    var obj = JSON.parse(text);
+
+    // Display second employee name (index 1)
+    document.getElementById("demo").innerHTML =
+    obj.employees[1].firstName + " " + obj.employees[1].lastName;
+
+    // Console output (extra)
+    console.log(obj.employees[0].firstName); // John
+    console.log(obj.employees[1].lastName);  // Smith
+    console.log(obj.employees[2].firstName); // Peter
+</script>
+
+</body>
+</html>
